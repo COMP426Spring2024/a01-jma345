@@ -1,0 +1,111 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f2; /* Light earthy background */
+}
+
+/* Header styling */
+header {
+    background-color: #8a7f7c; /* Earthy tone */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #a89f9d; /* Slightly lighter earthy tone */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    color: #dddbda; /* Light hover color */
+}
+
+/* Main content section */
+section {
+    padding: 20px;
+    background-color: #ffffff; /* Contrasting background for content */
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc; /* Subtle border */
+}
+
+/* Article styling for stories */
+article {
+    font-family: 'Georgia', serif;
+    color: #333;
+}
+
+/* Image styling */
+img {
+    width: 100%; /* Full width of container */
+    height: auto; /* Maintain aspect ratio */
+    border: 3px solid #8a7f7c; /* Earthy tone border */
+}
+
+/* Styling for lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #8a7f7c; /* Earthy tone border */
+    padding: 8px;
+    text-align: left;
+}
+
+/* Footer styling */
+footer {
+    background-color: #8a7f7c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Class-based selector example */
+.highlight {
+    background-color: #e2e2e2; /* Light highlight for special content */
+}
+
+/* ID-based selector example */
+#main-title {
+    font-size: 24px;
+    color: #5a534f; /* Darker earthy tone */
+}
+
+/* Hierarchical selector example */
+article h2 {
+    font-family: 'Georgia', serif;
+    color: #5a534f;
+}
